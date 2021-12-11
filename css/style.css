@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body{
+    
+}
+
+#window{
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+}
+
+#input_area{
+    text-align: left;
+    margin: 0px 0px 0px 75px;
+    color: white;
+}
+
+#uname{
+    width: 190px;
+
+}
+
+#text{
+    height: 30px;
+    
+}
+
+#output{
+    overflow-y: auto;
+    height: 300px;
+    background-color: #DDDDDD	;
+   
+}
+
+.all_msg_design{
+
+}
+
+.name_dsn{
+    display: flex;
+    align-items: flex-end;
+}
+
+#mes_date{
+    margin: 0 10px;
+    font-size: 1px;
+
+}
+
+
+.msg_design{  
+        padding: 5px 5px;
+        margin = 10px 10px 10px;
+        font-size: 12px;
+        word-wrap: break-word;/* 吹き出し内で自動で改行 */
+        white-space: normal;/*指定widthに合わせて、文字を自動的に改行*/
+        clear: both; 
+}
+
+.text_dsn{
+    padding: 0 14px;
+    background: #fff;
+    font-size: 16px;
+    border: 2px solid #13178E;
+    border-radius: 0px 30px 30px 30px;/*左下だけ尖らせて吹き出し感を出す*/
+    margin-right: 50px;/*左側の発言だとわかる様に、吹き出し右側に隙間を入れる*/
+}
+
+.btn{
+    text-align: right;
+    padding: 0 20px;
+}
+
